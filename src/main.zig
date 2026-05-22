@@ -162,7 +162,7 @@ const Game = struct {
     sizes: Sizes = .{},
     player: Player = .{},
 
-    const tiles_image = @embedFile("assets/tiles.png");
+    const tiles_image = @embedFile("embed/tiles.png");
     const tile_size: c.GLfloat = 32;
     const hexagon_size: c.GLfloat = 70;
     const grid_width = 10;
